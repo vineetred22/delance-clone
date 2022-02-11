@@ -1,0 +1,25 @@
+@import '../../GlobalStyle/Global';
+.move-up {
+    position: fixed;
+    // margin-right: 50px;
+    cursor: pointer;
+    bottom: 30px;
+    right: 0;
+    z-index: 999;
+    text-align: center;
+    height: 45px;
+    line-height: 46px;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+  }
+
+  .scroll_icon{
+      font-size:40px;
+      color:$light_purple;
+      ;
+  }
+
+  .btoo_rd{
+      z-index: 999;
+      border-radius: 50% !important;
+  }

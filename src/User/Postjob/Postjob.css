@@ -1,0 +1,30 @@
+/* 
+.input-with-icon i.currency {
+    font-size: 14px; top: 40% !important;
+}
+.input-with-icon i {
+    position: absolute;
+    top: 44%;
+    transform: translateY(-50%);
+    right: 35px;
+    font-size: 22px;
+    color: #a0a0a0;
+    font-style: normal;
+    
+    pointer-events: none;
+}
+textarea {
+    height: auto;
+    line-height: 27px;
+    padding: 20px;
+    min-height: 130px;
+    transition: none !important;
+    min-width: 100%;
+}
+.uploadButton .uploadButton-button:hover {
+    box-shadow: 0 4px 12px rgb(42 65 232 / 15%);
+    background-color: #2a41e8 !important;
+}
+a:hover{
+    color: #fff;
+} */

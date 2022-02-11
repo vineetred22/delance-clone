@@ -1,0 +1,84 @@
+.react-container {
+    font-family: sans-serif;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .controls-wrapper {
+    width: 100%;
+  }
+  
+  .carousel-wrapper {
+    width: 100%;
+  }
+  
+  .rec-carousel-item:focus {
+    outline: none;
+    box-shadow: inset 0 0 1px 0px violet;
+  }
+  .item{
+      border-radius: 10px;  
+  }
+  .bg-white{
+      background-color: #fff;
+  }
+  .author{
+        color: #8a95b6 !important;
+        font-size: 14px;
+  }
+  .carousasel_main{
+      margin-right: 20px;
+      padding-top: 20px;
+  }
+  .fNTuIa{
+    background: linear-gradient(to bottom, #2392c0 0%, #2392c0 20%, #3181b6 71%, #397ab4 86%, #3a75af 100%);
+  }
+  .fNTuIa:hover:enabled, .fNTuIa:focus:enabled {
+    color: #fff;
+    background: linear-gradient(to bottom, #2392c0 0%, #2392c0 20%, #3181b6 71%, #397ab4 86%, #3a75af 100%);
+    box-shadow: 0 0 2px 0 #333;
+}
+button.rec-dot{
+  background-color: transparent;
+  box-shadow: transparent;
+}
+
+button.rec-dot:hover, button.rec-dot:active, button.rec-dot:focus  {
+  box-shadow: transparent;
+}
+.rec-pagination{
+  display: none !important;
+}
+.rec_main_div{
+  width: 450px;
+  padding: 0px;
+}
+.rec-image{
+  width: 150px;
+}
+.btn_carousel_follow{
+  background: #2392c0;
+  color: #fff !important;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  float: left;
+  line-height: 38px;
+  padding: 0 27px;
+  border: none;
+  text-transform: uppercase;
+}
+.btn-carousel_create{
+  color: black !important;
+  line-height: 23px;
+  text-transform: uppercase;
+  padding-left: 8px;
+  padding-right: 8px;
+  float: left !important;
+  border-color: #2291BF;
+  border-width: 2px;
+}
+.dropdowncross_carousel{
+  width: 20px;
+  height: 20px;
+}

@@ -1,0 +1,78 @@
+@import '../../GlobalStyle/Global';
+.verify_main_container{    
+    border: 2px solid #2291be;
+    box-shadow: 0 0 0 0.2rem #007bff40;
+    border-radius: 25px;
+    margin-top: 100px;
+}
+
+#mysignupModal .margin_modal {
+    margin: 12% auto !important;
+}
+
+.verify_header{
+    width: 100%;
+}
+.verify_title{
+    position: relative;
+    font-size: 24px;
+    color: #fff;
+    font-weight: 700;
+    text-align: center !important;
+}.verify_title span:after {
+    background-color: #D716A5;
+    padding: 0 20px;
+    content: " ";
+    position: absolute;
+    bottom: -7px;
+    width: 15%;
+    height: 3px;
+    left: 42%;
+}
+.verify_a{
+    color: #2291be;
+    text-decoration: underline;
+}
+.verify_a:hover{
+    color: #000;
+    text-decoration: none;
+}
+#verifyCode input{
+    margin: 0 5px;
+    text-align: center;
+    line-height: 70px;
+    font-size: 45px;    
+    box-shadow: none;
+    outline: none;
+    color: black;
+    width: 10%;
+    transition: all .2s ease-in-out;
+    border-radius: 0;
+    background-color: #454545 !important;
+    border: none;    
+}
+#verifyCode input:focus{
+    border-bottom: 2px solid #007bff !important;
+    background-color: #333;
+}
+.btnotp{
+    background-color:#81C784 !important;
+    border-radius: 20px !important;
+    padding: 5px 0px !important;
+    font-size: 17px !important;
+}
+.otp_heading{
+    text-align: center;
+}
+.otp_heading h6{
+    font-size: 18px !important;
+    color: #333;
+    
+    font-weight: 700 !important;
+}
+.otp_heading  span{    color: #808080;
+    font-weight: 500 !important;
+    padding-top: 15px;
+    letter-spacing: 0.5px;
+    font-size: 15px !important;}
+

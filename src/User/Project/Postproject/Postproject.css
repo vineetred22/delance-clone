@@ -1,0 +1,108 @@
+
+.go2139093995 {
+    --rmsc-main: #4285f4;
+    --rmsc-hover: #f1f3f5;
+    --rmsc-selected: #e2e6ea;
+    --rmsc-border: #ccc;
+    --rmsc-gray: #aaa;
+    --rmsc-bg: #fff;
+    --rmsc-p: 5px !important;
+    
+    --rmsc-radius: 4px;
+    --rmsc-h: 38px;
+}
+.autofield input{
+    height: 0px !important;
+    padding: 21px 8px !important;
+    margin: 0 0 0px 0 !important;
+}
+.dash_padding{
+    padding: 32px 32px 40px;
+}
+/* .MuiRadio-colorSecondary.Mui-checked {
+    color:  #7c4dff !important;
+} */
+
+/* .dropdown-content{
+    font-size: 15px;
+  padding-top: 0px !important;
+  padding-bottom: 0px !important;
+} */
+/* 
+.input-with-icon i.currency {
+    font-size: 14px; top: 40% !important;right: 20px !important;
+}
+.input-with-icon i {
+    position: absolute;
+    top: 54%;
+    transform: translateY(-50%);
+    right: 35px;
+    font-size: 22px;
+    color: #a0a0a0;
+    font-style: normal;
+    
+    pointer-events: none;
+}
+textarea {
+    height: auto;
+    line-height: 27px;
+    padding: 20px;
+    min-height: 130px;
+    transition: none !important;
+    min-width: 100%;
+}
+.uploadButton .uploadButton-button:hover {
+    box-shadow: 0 4px 12px rgb(42 65 232 / 15%);
+    background-color: #7c4dff !important;
+}
+a:hover{
+    color: #fff;
+}
+.uploadButton .uploadButton-text {
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+    flex: 1;
+    box-sizing: border-box;
+    padding: 0 10px;
+    padding-left: 18px;
+    min-height: 42px;
+    top: 1px;
+    position: relative;
+    color: #888;
+    background-color: transparent;
+   
+    line-height: 22px;
+}
+@media (max-width: 480px){
+.uploadButton .uploadButton-text {
+    padding: 0;
+    margin: 15px 0 0 0;
+}}
+.pricetext{
+    margin-top: -50px !important;
+    padding-left: 10px;
+}
+ */
+
+.MuiRadio-colorSecondary.Mui-checked {
+    color:  #7C4DFF !important;
+}
+ @media (max-width: 600px){
+ .dash_padding{
+        
+         padding: 10px 0px !important;
+ }
+ .MuiPaper-elevation2 {
+     box-shadow:none !important
+}
+
+}
+@media (max-width: 768px){
+
+    .project_padding{
+    padding-left: 0px !important; 
+    padding-right: 0px !important;
+    }
+
+}

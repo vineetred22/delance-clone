@@ -1,0 +1,22 @@
+
+@import '../../../GlobalStyle/Global';
+.bidsheading {
+    
+        font-size: 15px !important;
+     padding-bottom: 5px !important;
+        font-weight: 600 !important;
+        color: #333 !important;
+       
+  }
+  .bidbutton{
+      background-color:$light_purple !important;
+      color:  #fff !important;
+      font-size: 14px !important;
+  }
+  .dolaricon{font-size: 20px; color: #666!important;}
+  @media screen and (max-width: 768px) {
+    .heading_bid{
+       padding-left: 30px;
+    }
+  }
+  

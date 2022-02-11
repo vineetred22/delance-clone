@@ -1,0 +1,96 @@
+.dash_user{
+    display: flex ;
+}
+.img_user{
+    width: 100px !important;
+    height: 100px !important;
+}
+.star-rating-number {
+   
+    display: inline-flex;
+    border-radius: 4px;
+    background-color: #febe42;
+    color: #fff;
+    margin-top: 7px;
+    font-size: 14px;
+    
+    font-weight: 700;
+    padding: 0px 6px;
+    position: relative;
+    top: -6px;
+    margin-right: 10px;
+}
+.freelancer_detail{
+    padding: 35px;
+}
+.find_button  {
+    position: relative;
+    font-weight: 500 !important;
+    text-transform: none !important;
+    border-radius: 4px !important;
+    background-color: #7c4dff !important;
+    font-size: 16px !important;
+    padding: 5px 0px !important;
+    
+    margin-bottom: 10px !important;
+}
+.freelancer-name span{
+    font-size: 14px;
+}
+.find_padding{
+    padding-left: 100px;
+    padding-right: 50px;
+    
+}
+.responsive_page{
+    padding-right: 100px;
+    padding-left: 20px;
+}
+.remyimg{
+    padding-left: 30px;
+}
+@media only screen and (max-width: 1280px) {
+    .responsive_page{
+        padding-right: 50px;
+        padding-left: 50px;
+    }
+    .find_padding{
+        padding-left: 50px;
+        padding-right: 50px;
+        
+    }
+}
+@media only screen and (max-width:568px) {
+    .dash_user {
+        display: block;
+        text-align: center;
+
+    }
+    .rate_respons {
+       margin-left: auto;
+       justify-content: center;
+    }
+    .remyimg{
+        display: flex;
+    justify-content: center !important;
+        padding-left: 0px;
+    }
+    .find_padding{
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    .responsive_page {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    .freelancer-name{
+        text-align: center;
+    }
+}
+// @media only screen and (min-width:568px) {
+// .find_padding {
+//     padding-left: 50px;
+//     padding-right: 50px;
+// }
+
+// }

@@ -1,0 +1,215 @@
+body, h1, h2, h3, h4, h5, h6,   select, p,  button, body  {
+    font-family: "Nunito", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-transform: none;
+}
+.userimg{
+	border-radius: 50%;
+	height: 100px;
+	width: 100px;
+}
+.subheding{color: #909090;
+ font-size: 14px;
+ font-weight: 600;margin-bottom: 6px;
+}
+
+.starcolor{color: orange;}
+.yellobox{
+    height: 22px;
+    width: 45px;
+    border-radius: 4px;
+    color: #fff;
+    background-color: orange;
+    text-align: center;
+    padding-top: 0px;
+}
+.text{
+    font-size: 15px;
+    word-spacing: 5px;
+    font-weight: 500;
+    color: #333;
+    padding-bottom: 20px;
+}
+.pt-2{
+    font-size: 13px;
+}
+.starbox{margin-left: 4px;}
+.greenbox{background-color: green; height: 25px; width: 100px; color: #fff; margin-left: 15px;}
+.flagimg{height: 20px; width: 30px; margin-left: 15px;}
+.work{background-color: #f3f3f3;padding: 20px; border-radius: 4px;}
+.colorblue{color: blue;}
+.thumbsize{font-size: 22px !important; margin-right: 8px;}
+.box1{padding: 20px; margin-top: 15px; margin-bottom: 15px;
+    font-weight: 600;font-size: 15px;}
+.smallpera{padding-top:15px;}
+.box2{padding: 20px; background-color:#f3f3f3; margin-top: 15px;
+    font-weight: 600;font-size: 15px; margin-bottom: 15px;}
+.damiimg{height: 80px; width: 80px; padding: 8px;}
+.otherbox{ padding: 20px; margin-top: 15px; margin-bottom: 15px;}
+.bggay{background-color: #f3f3f3;}
+
+.padingleft{padding-left: 12px;font-size: 13px;
+    font-weight: 500;}
+    .padingleft p{font-size: 16px;}
+.d-flex h6{padding-top: 8px;}
+.user_padding{padding-left: 30px;}
+.progress-bar{background-color: blue !important}
+.graycolor{color: #ccc;  padding-top: 5px; padding-bottom: 15px;
+    font-size: 16px;
+}
+.graycolor i{padding-right: 15px; font-size: 25px;}
+.socialicon{margin-top: 30px; margin-bottom: 15px;}
+.skills button{background-color: #ccc; color: blue; padding: 4px; font-size: 12px;border: none; margin-right: 3px;}
+.attacment{padding-top: 30px; margin-bottom: 40px;}
+.filesize{height: 80px; width: 100px;}
+.bookmarkbox{background-color: #2f2c2c; color: #fff; width: 120px; height:40px;padding: 10px;
+    border-radius: 3px;display: flex; margin-top: 15px; margin-bottom: 15px;}
+.bookmark{ margin-bottom: 15px; margin-top: 15px;}
+.bookmarkbox i{border-right: 1px solid #ccc;}
+.shareicon{    color: #fff;
+    height: 40px;
+    background-color: #ccc;
+    width: 40px;
+    padding: 8px;
+    text-align: center;
+    margin-top: 11px;
+}
+.user_flex{display: flex;}
+.share{margin-bottom: 15px; margin-top: 15px;}
+.share p b{
+    color: #2a41e8;
+}
+.media-body{font-size: 14px; font-weight: 600;}
+.book{font-size: 15px;font-weight: 600;}
+.share{font-weight: 500;font-size: 15px;}
+.attachment-box:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    border-width: 0 20px 20px 0;
+    border-style: solid;
+    border-color: rgba(0,0,0,0.15) #fff;
+    transition: 0.3s;
+    border-radius: 0 0 0 4px;
+}
+
+.attachment-box {
+    display: flex;
+    margin: 5px 10px 15px 11px !important;
+    background-color: #F4F4F4;
+    border-radius: 4px 0px 4px 4px;
+    font-weight: 600;
+    font-size: 13px;
+    padding: 15px 20px;
+    padding-bottom: 45px;
+    padding-right: 25px;
+    line-height: 24px;
+    flex-direction: column;
+    color: #666;
+    position: relative;
+    transition: 0.3s;
+    flex: 0 1 calc(50% - 21px);
+    cursor: default;
+    position: relative;
+}
+.verifi{
+    margin-left: -3px;
+}
+.attachments-container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: calc(100% + 20px);
+    margin-bottom: -30px;
+}
+
+
+.acco{margin-right: -8px;
+    margin-top: -4px;}
+.font_siize{
+    font-size:16px;margin-right: -7px;
+    margin-top: -5px;
+}
+
+.tickicon{
+    font-size:25px !important;margin-left: 5px;
+}
+
+.font_sizee_share{
+    font-size:22px;
+}
+
+.start_sizee{
+    font-size:18px;
+}
+.icontoltip{
+    padding: 0px !important;
+    min-width: 0px !important;
+    color: #333 !important; 
+   
+}
+.portfolioicon{
+ 
+    padding-left: 15px !important;
+    padding-right: 15px !important;
+}
+.icontoltip:hover {
+    color: #2a41e8 !important;
+    background-color: transparent !important;
+}
+.locationicon{
+    font-size: 20px;
+    padding-right: 2px;
+}
+.educationpera{
+    color: #212529;font-size: 14px;font-weight: 600;
+}
+.eductionicon{
+    color: #2a41e8;
+}
+.inputloginborder {
+    border: 1px solid #ced4da !important;
+}
+.singleListingMap{
+    position: relative;
+    height: 340px;
+    border-radius: 4px;
+}
+.copy-url {
+	display: flex;
+    
+}
+
+.copy-url input {
+	border-radius: 4px 0 0 4px;
+	border-right: 0;
+}
+
+.copy-url .copy-url-button {
+	min-width: 48px;
+	background-color: #2a41e8;
+	color: #fff;
+	border-radius: 0 4px 4px 0;
+    height: 48px;
+}
+.linkicon{
+   color:#333 !important; 
+
+}
+.chipskill{margin-left: -6px;}
+@media screen and (max-width: 576px) {
+    .media {
+        padding-left: 10px;
+    }
+}
+@media screen and (max-width: 768px) {
+    .greenbox {
+     margin-top: 10px;
+     margin-left: 0;
+     display: block;
+    }
+    .user_flex{display: block !important;}
+  .block{padding-top: 10px;margin-left: -8px;}
+    .flagimg{margin-left: 0; margin-top: 10px;}
+    .user_padding{padding-left: 0px;}
+  }

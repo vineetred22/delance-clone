@@ -1,0 +1,98 @@
+@import '../../GlobalStyle/Global';
+.plusicon{
+    font-size: 27px !important;
+    background-color: $light_purple;
+    color: #fff;
+}
+.skillchip{
+    font-size: 15px !important;
+    margin-left: 5px !important;
+    margin-top: 10px !important;
+}
+.bidheading{
+    font-size: 18px !important;
+    color: #333;
+    font-family: "Nunito", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 500 !important;}
+    
+    .bidsubheading{    
+        color: #808080;
+        font-weight: 500 !important;
+        letter-spacing: 1.5px;
+        font-size: 14px !important;
+        font-family: "Nunito", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    margin-top: 3px !important;
+
+    }
+    .bid_text{
+        color: #808080;
+        font-weight: 500 !important;
+        padding-top: 15px ;
+        letter-spacing: 0.5px;
+        font-size: 15px !important;
+        font-family: "Nunito", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    }
+    .bid_chip{
+        font-size: 15px !important;
+        color: $light_purple !important;
+        margin-left: 5px !important;
+    margin-top: 10px !important;
+    padding: 10px !important;
+        background-color: rgba(42,65,232,.07) !important;
+    }
+    .bid-price strong{
+        display: block;
+        color: #333;
+        font-weight: 600;
+        line-height: 24px;
+        font-size: 18px;
+    }
+    .bid-price span {
+        display: block;
+    color: #888;
+    line-height: 24px;
+    font-size: 16px;
+    padding-top: 5px !important;
+
+    }
+    .bid-button{
+        background-color: #7c4dff !important;
+        padding: 1px 20px  !important;
+      
+        font-size: 20px !important;
+    }
+    .bids_select{
+     
+        background-color: #f2f2f2;
+        display: flex;
+        
+    }
+    .bids_select P{
+        padding-top: 12px;
+        font-size: 17px;
+        font-weight: 500;
+   
+        margin-left: auto;
+    }
+    .selct_option{
+        padding: 4px 20px !important;
+        font-size: 16px !important;
+    }
+    .findwork_padding{
+        padding-left: 30px;
+    }
+    @media only screen and (max-width:568px) {
+        .findwork_padding{
+            padding-left: 0px;
+        }
+    }
+
+    @media only screen and (max-width: 1200px) {
+        .responsive_workpage{
+            margin-left: 80px;
+            margin-right: 80px !important;
+        }
+    }
+    
+    
+    

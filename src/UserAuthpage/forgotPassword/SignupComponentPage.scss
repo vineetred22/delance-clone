@@ -1,0 +1,25 @@
+.emailborder{
+    border: 1px solid #65735b !important;
+    height: 37px !important;
+    padding-left: 30px;
+    padding-right: 250px;
+    margin-left: 55px !important;
+    margin-bottom: 0px !important;
+
+}
+.iconemail{
+    position: relative;
+   
+    left: -25px;color:#65735b;
+}
+@media (max-width: 992px){
+    .emailborder {
+      margin-left: 0px !important;
+      width: 100%;
+      padding-left: 30px !important;
+      padding-right: 0px !important;
+    }
+  
+   .iconemail {
+          margin-left: -50px !important;
+         }}

@@ -1,0 +1,83 @@
+.formdisplay {
+    display: flex;
+    padding-top: 30px;
+}
+
+// .responsiveinput {
+//     margin-left: 5px !important;
+// }
+
+
+.selectfield input{
+    height: 3px !important;
+    margin: 0px !important;
+    padding: 19px 8px !important;
+}
+
+ 
+.passwordfield input{    margin: 0 0 0 0 !important; height: 17px !important;}
+#combo-box-demo {
+    height: 0px !important;
+}
+.MuiAutocomplete-inputRoot[class*="MuiOutlinedInput-root"] {
+    padding: 0px !important;
+}
+// .MuiFormControlLabel-label {
+
+//     padding-top: 15px;
+// }
+
+.MuiFormHelperText-root.Mui-error {
+    color: #f44336;
+    font-size: 14px;
+    padding-top: 3px;
+}
+.conditiontext {
+    padding-left: 25px !important;
+     margin-top: -20px !important;
+    padding-bottom: 0px !important;
+    color: #f44336 !important;
+    font-size: 14px !important;
+}
+ .MuiFormControlLabel-label  {
+    font-size: 15px !important;
+    font-weight: 600 !important;
+    color: #333 !important;
+    font-family: "Nunito", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+}
+.text_signup {
+    font-size: 15px !important;
+    font-weight: 600 !important;
+    color: #333 !important;
+    font-family: "Nunito", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+}
+// .MuiFormControl-root .MuiOutlinedInput-root input {
+//     height: 15px !important;
+// }
+.mb-4,
+.my-4 {
+    margin-bottom: 0.5rem !important;
+    font-size: 600 !important;
+    color: #212529 !important;
+}
+.MuiCheckbox-colorSecondary.Mui-checked {
+    color: #81c784 !important;
+}
+.MuiInputAdornment-positionStart {
+     margin-right: 0px !important; 
+}
+.eyeicon {
+    font-size: 23px;
+}
+
+@media (max-width: 767px) {
+    .formdisplay {
+        display: block;
+    }
+}
+
+@media (max-width: 767px) {
+    .responsiveinput {
+        margin-left: 0px !important;
+    }
+}

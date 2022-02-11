@@ -1,0 +1,166 @@
+.dashboard-task-info {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+    background-color: #f4f4f4;
+	text-align: center;
+	border-radius: 4px;
+	padding: 14px 25px;
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    align-self: flex-end;
+    position: absolute;
+    right: 30px;
+    top: 50%;
+    transform: translateY(-50%);
+    transition: 0.3s;
+    justify-content: center;
+}
+.manage_icon{
+    font-size: 28px;
+    color: #7c4dff;
+}
+.editbtns {
+    background-color: #7c4dff !important;
+    padding: 9px 0px!important;
+    margin-left: 3px !important;
+    margin-bottom: 7px !important;
+}
+.dashboard-box li:hover .dashboard-task-info {
+	background-color: #f0f0f0;
+}
+
+.dashboard-task-info li {
+	display: inline-block;
+	border-right: 1px solid #d0d0d0;
+	padding-right: 22px;
+	margin-right: 22px;
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center;
+}
+
+.dashboard-task-info li:last-child {
+	margin-right: 0;
+	padding-right: 0;
+	border: none;
+}
+
+.dashboard-task-info li strong {
+	display: block;
+	font-size: 16px;
+	font-weight: 600;
+	color: #333;
+	line-height: 22px;
+}
+
+.dashboard-task-info li span {
+	display: block;
+	font-size: 14.5px;
+	color: #888;
+	line-height: 20px;
+}
+@media (max-width: 1366px) {
+	.dashboard-box .job-listing.width-adjustment {max-width: 100% }
+	.dashboard-task-info {
+	    position: relative;
+	    right: 0;
+	    top: 0;
+	    transform: none;
+	    margin: 10px 0 20px 0;
+	}
+	.dashboard-task-info.bid-info {
+		margin-bottom: 0;
+		margin-top: 20px;
+	}
+}
+@media (max-width: 768px) {
+	
+	.dashboard-task-info.bid-info,
+	.dashboard-task-info:not(.bid-info) {
+		flex-direction: column;
+		width: 100%;
+	}
+
+	.dashboard-task-info li {
+		border-right: none;
+		border-bottom: 1px solid #d0d0d0;
+		padding: 0 0 10px 0;
+		margin: 0 0 10px 0;
+		width: 100%;
+	}
+	.dashboard-task-info li:last-child{
+		border-right: none;
+		border-bottom: none;
+		padding: 0;
+		margin: 0;
+	}
+}
+.dashboard-box-list .buttons-to-right.always-visible:not(.single-right-button) {
+    position: relative;
+    transform: none;
+    top: 0;
+    margin: 5px 0 10px -2px;
+    opacity: 1;
+    right: auto;
+    display: inline-block;
+    box-shadow: none;
+    width: 100%;
+    background-color: transparent !important;
+    box-shadow: none;
+}
+.dashboard-box-list .button {
+    padding: 6px 15px;
+    line-height: 20px;
+    font-size: 13px;
+    font-weight: 600;
+    margin: 0;
+     display: inline-block; 
+    box-shadow: 0 3px 8px rgb(102 103 107 / 15%);
+}
+.dashboard-box-list .buttons-to-right.always-visible .button {
+    margin: 0 3px 0 0;
+}
+.tooltipdisplay{
+	display: flex !important;
+	margin: 5px 0px !important;
+}
+
+
+@media (max-width: 768px) {
+	
+	.buttons-to-right:not(.single-right-button) {
+	    position: relative;
+	    transform: none;
+	    top: 0;
+	    margin: 10px 0 0 0;
+	    opacity: 1;
+	    right: auto;
+	    display: inline-block;
+	    box-shadow: none;
+	    
+	}
+	.dashboard-box {
+	background-color: transparent !important;
+		 box-shadow:none;
+		 
+	}
+	.dashboard-content-inner {
+		padding: 0px;
+	
+	}
+	.dashboard-headline {
+	
+		 margin-bottom: 0px; 
+	}
+	.tooltipdisplay{
+		display: block !important;
+		text-align: center;
+	}
+	.manage_icon{
+		margin-left: 20px;
+	}
+}
+   

@@ -1,0 +1,132 @@
+.dashbanner{display: flex;}
+.peopleimg{width: 10% !important;}
+.MuiAvatar-img{width: 200px !important;}
+.dash_bidd{font-size: 15px;}
+ .freelancer-avatar {
+    align-self: flex-start;
+}
+
+.freelancer-avatar {
+    margin: 0;
+    width: 140px !important;
+}
+ .freelancer-avatar img {
+    width: 100%;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.freelancer-names {
+    text-align: left;
+    margin: 0 0 0 30px;
+    width: 100%;
+}
+.freelancer-names img.flag {
+    height: 15px;
+    border-radius: 3px;
+    position: relative;
+    top: -1px;
+    display: inline-block;
+   
+    margin-left: 4px;
+    
+}
+.freelancer-names h4, .freelancer-names h4 a {
+    font-size: 18px;
+    font-weight: 600;
+    color: #333;
+    cursor: pointer;
+}
+
+.freelancer-rating {
+    margin-top: 5px;
+    margin-bottom: -10px;
+}
+.freelancer-email{color: #66676b; font-size: 15px;}
+.freelancer-email:hover{color: #7c4dff;cursor: pointer;}
+.bread_crumb{
+    background-color: #f4f4f4 !important;
+    padding: 20px;margin-right: 22px !important;
+}
+.rating{display: flex;}
+.bread_color{color: #333 !important;  text-align: center !important;}
+.likeicon1{font-size: 18px; padding-right: 3px;}
+.biddselect{margin-left: auto !important; padding: 0px 30px !important;}
+.bidselect{padding: 0px 30px !important;}
+.buttons {
+    position: relative;
+    font-weight: 500 !important;
+    text-transform: none !important;
+    border-radius: 4px !important;
+    background-color: #7c4dff !important;
+    font-size: 13px !important;
+    padding: 5px 20px !important;
+    margin-top: 25px !important;
+    margin-left: 5px !important;
+    color: #fff !important;
+ 
+}
+.buttonss{
+    position: relative;
+    font-size: 15px !important;
+    border-radius: 4px !important;
+    background-color: #7c4dff !important;
+    padding: 8px 14px !important;
+    color: #fff !important;
+    margin-top: 25px !important;
+    margin-left: 5px !important;
+
+  
+}
+.managepadding{
+    padding: 30px 60px;
+}
+.star-rate {
+    display: inline-flex;
+    border-radius: 4px;
+    background-color: #febe42;
+    color: #fff;
+    font-size: 14px;
+    line-height: 10px;
+    font-weight: 700;
+    padding: 6px 7px;
+    position: relative;
+   
+    margin-bottom: 10px;
+    margin-right: 10px;
+    
+
+}
+/* @media (max-width: 968px){ .freelancer-avatar {
+  
+    width: 30% !important;
+}} */
+
+@media (max-width:576px){
+    .managepadding{
+        padding: 30px 10px !important;
+    }
+    .dashbanner{display: block;}
+    .rating{display: flex; justify-content: center;}
+    .freelancer-avatar {
+        margin: auto;
+        width: 100px !important;
+    }
+    .freelancer_text{
+       text-align: center;
+    }
+   .btn_bideder{
+       text-align: center;
+   }
+   .MuiBreadcrumbs-ol {
+   
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+    .freelancer-names {
+        
+        margin: 0 0 0 10px;
+      
+    }
+}
+

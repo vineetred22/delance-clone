@@ -1,0 +1,143 @@
+@import '../../GlobalStyle//Global';
+.loginimg{
+	// background-image:url('../../assets/images/bgimg8.jpg' ) !important;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.delance_text {
+	text-align: center;
+	
+}
+.delance_text p{
+
+	font-size: 40px;
+    font-weight: 500;
+}
+.form-width{
+	
+	margin: auto;
+	padding-top: 30px;
+}
+.checkinput{height: 14px !important; }
+select{height: 42px !important;}
+.formbox{  margin: auto; padding: 45px 0px;
+	 margin-top: 50px; margin-bottom: 30px;}
+	
+	  
+	  .formbox {
+		box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+	  }
+#titlebar {
+	background-color: #f8f8f8;
+	position: relative;
+	padding: 70px 0;
+	margin: 20px 0px;
+}
+
+#titlebar.gradient {
+	background: linear-gradient(to bottom, rgba(0,0,0,0.03) 0%, rgba(255,255,255,0));
+	padding-bottom: 0;
+}
+
+#titlebar.white {
+	background: #fff;
+	padding-bottom: 0;
+}
+
+#titlebar.transparent {
+	background: transparent;
+}
+
+#titlebar span a,
+#titlebar span {
+	font-size: 20px;
+	color: #888;
+	margin-bottom: 3px;
+	margin-top: 3px;
+	display: block;
+}
+
+#titlebar #breadcrumbs span {
+	font-size: 14px
+}
+
+#titlebar h1,
+#titlebar h2 {
+	font-size: 30px;
+	line-height: 40px;
+	margin: 1px 0 3px 0;
+}
+
+
+/* Adjustments for "Single Page Header" */
+.single-page-header #breadcrumbs {
+	position: relative;
+	top: 0;
+	left: 0;
+	transform: none;
+	margin-left: auto;
+}
+
+.login-register-page .account-type { width: 100%; }
+	.login-register-page .account-type div { margin-right: 0; }
+	.login-register-page .social-login-buttons button { 
+		/* margin-right: 0; */
+	    width: 100%;
+	    display: block;
+	    max-width: 100%;
+	}
+
+
+.login-register-page .welcome-text h3 { font-size: 28px; font-weight: 600; }
+
+
+.welcome-text{text-align: center; margin-bottom: 30px;}
+
+.mailicon{
+	font-size: 18px;
+
+}
+.icon-right {
+    position: absolute;
+
+    color: #a0a0a0;
+    text-align: center;
+   
+    
+    // background-color: #f8f8f8;
+
+   
+}
+.btnclr {
+  background-color: #81C784 !important;
+    color: #fff !important;
+    border-radius: 20px !important;
+	font-size: 18px !important;
+  }
+  .passcolor{
+	  color: $light_purple !important;
+	
+  }
+  .passcolor:hover{
+	color: #333 !important;
+	cursor: pointer;
+	
+  
+}
+.fullpadding{
+	padding: 40px !important;
+}
+@media screen and (max-width: 480px) {
+	.responsform{
+		padding-left: 0px !important;
+		padding-right: 0px !important;
+	}
+	.formbox {
+		box-shadow:none !important;
+	}
+	.fullpadding{
+		padding: 40px 0px 0px 0px!important;
+	}
+	
+  }
+

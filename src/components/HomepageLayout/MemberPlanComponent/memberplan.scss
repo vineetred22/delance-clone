@@ -1,0 +1,277 @@
+body, h1, h2, h3, h4, h5, h6, select, p, button, body {
+    font-family: "Nunito", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;}
+.billing-cycle-radios {
+	display: block;
+	margin: 0 auto;
+	text-align: center;
+	margin-bottom: 70px;
+}
+
+.billing-cycle-radios.text-align-left {
+	text-align: left;
+}
+
+.billing-cycle-radios .radio { margin-right: 20px; }
+.billing-cycle-radios .radio:last-child { margin-right: 0; }
+
+.radio {
+    display: inline-block;
+    vertical-align: top;
+}
+.radio input[type="radio"] {
+    position: absolute;
+    opacity: 0;
+}
+input[type="radio"] {
+    width: 15px;
+    height: 15px;
+    cursor: pointer;
+    box-shadow: none;
+}
+input, input[type="text"], input[type="password"], input[type="email"], input[type="number"], textarea, select {
+    
+    line-height: 48px;
+    
+    outline: none;
+    font-size: 16px;
+    color: #808080;
+    margin: 0 0 16px 0;
+    max-width: 100%;
+    
+    display: block;
+    background-color: #fff;
+    font-weight: 500;
+    
+    border-radius: 4px;
+    border: none;
+  
+}
+input {
+    
+    transition: all 0.1s ease-in-out;}
+	.radio label {
+		margin: 3px 0;
+		cursor: pointer;
+		position: relative;
+		padding-left: 29px;
+		line-height: 25px;
+	}
+	label, legend {
+		display: block;
+		color: #666;
+		font-size: 16px;
+		font-weight: normal;
+		
+	}
+	.small-label {
+		border-radius: 4px;
+		display: inline-block;
+		background: #e0f5d7;
+		color: #449626;
+		padding: 0 8px;
+		line-height: 27px;
+		height: 26px;
+		margin-left: 5px;
+		position: relative;
+		top: -1px;
+	}
+	label span, legend span {
+		font-weight: normal;
+		font-size: 14px;
+		
+	}
+/* Pricing Plans Container */
+.pricing-plans-container {
+	border-radius: 4px;
+	box-shadow: 0 0 25px rgba(0,0,0,0.1);
+	display: flex;
+}
+
+.pricing-plan {
+	flex: 1;
+	padding: 35px 17px;
+	position: relative;
+}
+
+.pricing-plan:first-of-type {
+	padding-left: 35px;
+}
+
+.pricing-plan:last-of-type {
+	padding-right: 35px;
+}
+
+.pricing-plan h3 {
+	font-size: 20px;
+	font-weight: 600;
+}
+
+.pricing-plan p {
+	margin: 0;font-size: 15px;
+    font-weight: 500;
+    margin-top: 10px;
+    color: #666;
+}
+
+/* Label Switcher */
+.billed-yearly-label { display: none; }
+.billed-yearly .billed-yearly-label { display: block; }
+.billed-yearly .billed-monthly-label { display: none; }
+
+/* Pricing Plan Label */
+.pricing-plan-label {
+	background: #f6f6f6;
+    border-radius: 4px;
+    font-size: 18px;
+    color: #888;
+    text-align: center;
+    line-height: 24px;
+    padding: 15px;
+    margin: 22px 0;
+
+}
+
+.pricing-plan-label strong {
+	font-size: 32px;
+	
+	color: #333;
+	margin-right: 5px;
+	line-height: 30px;
+}
+
+.recommended .pricing-plan-label {
+	background-color: rgba(102,103,107,0.06);
+	color: #66676b;
+}
+.recommended .pricing-plan-label strong {
+	color: #2a41e8!important;
+}
+.month{
+    color: #2a41e8!important;
+}
+/* Pricing Plan Features */
+.pricing-plan-features strong {
+	color: #333;
+	font-weight: 500;
+	margin-bottom: 5px;
+	line-height: 24px;
+	display: inline-block;
+	font-size: 15px;
+}
+
+.pricing-plan-features ul {
+	padding: 0;
+	margin: 0;
+}
+
+.pricing-plan-features ul li {
+    display: block;
+    margin: 0;
+    padding: 3px 0;
+    color: #666;
+    line-height: 24px;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+/* Pricing Plan Button */
+
+.pricing-plan  .btn{
+    background-color: #2a41e8!important;
+    color: #fff!important;
+	box-shadow: 0 4px 12px rgba(102,103,107,0.1);
+    top: 0;
+    width: 100% !important;
+    padding: 10px 20px;
+    line-height: 24px;
+
+    position: relative;
+    font-size: 17px;
+
+    display: inline-block;
+    transition: all 0.2s ease-in-out;
+    cursor: pointer;
+    overflow: hidden;
+   
+    border-radius: 4px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.pricing-plan .button {
+    color: #2a41e8!important;
+    border: 1px solid #2a41e8 !important;
+	background-color: #fff !important;
+	box-shadow: 0 4px 12px rgba(102,103,107,0.1);
+    top: 0;
+    width: 100% !important;
+    padding: 10px 20px;
+    line-height: 24px;
+
+    position: relative;
+    font-size: 17px;
+
+    display: inline-block;
+    transition: all 0.2s ease-in-out;
+    cursor: pointer;
+    overflow: hidden;
+   
+    border-radius: 4px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.pricing-plan .button:hover { box-shadow: 0 4px 12px rgba(102,103,107,0.15); }
+
+/* Recommended Plan */
+.pricing-plan.recommended {
+	box-shadow: 0 0px 45px rgba(0,0,0,0.09);
+	padding: 35px;
+	margin: 0 15px;
+}
+.hover:hover{
+	background-color: #2a41e8 !important;
+	color: #fff !important;
+}
+.pricing-plan .recommended-badge {
+	background-color: #2a41e8;
+	color: #fff;
+	position: absolute;
+	width: 100%;
+	height: 45px;
+	top: -45px;
+	left: 0;
+	text-align: center;
+	border-radius: 4px 4px 0 0;
+	font-weight: 600;
+	line-height: 45px;
+	font-size: 15px;
+}
+
+/* Media Queries for Pricing Plans */
+@media (max-width: 992px) {
+	.pricing-plans-container {
+		box-shadow: none;
+		display: block;
+		margin-top: -40px;
+	}
+
+	.pricing-plan {
+		box-shadow: 0 0 25px rgba(0,0,0,0.1);
+		margin-bottom: 40px;
+		flex: auto;
+		width: 100%;
+		border-radius: 4px;
+		padding: 35px;
+	}
+
+	.pricing-plan.recommended {
+		padding: 35px;
+		margin: 0 0 40px 0;
+	}
+
+	.recommended.pricing-plan {
+		box-shadow: 0 0 25px rgba(0,0,0,0.1);
+		margin-top: 80px;
+	}
+}

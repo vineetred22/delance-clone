@@ -1,0 +1,42 @@
+#logo { 
+	display: inline-block;
+	border-right: 1px solid #e0e0e0;
+
+	vertical-align: top;
+	padding-right: 35px;
+	margin-right: 20px;
+}
+
+#logo img {
+	height: 42px;
+	width: auto;
+
+	position: relative;
+	transform: translate3d(0,-50%,0);
+  margin-top: 30px;
+  margin-bottom: -10px;
+}
+.navs{
+    background-color: white!important;
+}
+
+.notification-avatar {
+	height: 42px;
+	width: 42px;
+	max-width: 42px;
+	display: inline-block;
+	border-radius: 50%;
+	overflow: hidden;
+}
+
+
+.MuiAppBar-colorPrimary {
+    color: #fff;
+     background-color: #fff !important;
+}
+
+
+
+
+
+

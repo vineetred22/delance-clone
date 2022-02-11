@@ -1,0 +1,123 @@
+@import '../../GlobalStyle//Global';
+
+@media(min-width:576px){
+
+   
+}
+
+/* .MuiAppBar-colorPrimary{
+    background-color: red;
+} */
+@media (min-width: 600px)
+{
+.makeStyles-toolbar-8 {
+     min-height: 0px !important; 
+}}
+.makeStyles-toolbar-10 {
+    min-height: 0px !important;
+}
+
+.MuiList-padding {
+    padding-top: 8px;
+    padding-bottom: 90px !important;
+}
+
+@media (min-width: 600px){
+    .MuiToolbar-regular {
+        min-height: 64px;
+        display: none !important;
+    }
+   
+    .MuiAppBar-colorPrimary {
+        min-height: 64px;
+        display: none !important;
+    }
+ 
+}
+@media (min-width: 569px){
+    .MuiDrawer-paper {
+        top:130px !important;
+    } 
+}
+@media (min-width: 600px){
+    .MuiDrawer-paper {
+        top: 82.5px!important;
+    } 
+}
+
+.MuiDrawer-paper {
+    top:80px ;
+    flex: 1 0 auto;
+    height: 100%;
+    display: flex;
+    outline: 0;
+    z-index: 1200;
+    position: fixed;
+    overflow-y: auto;
+    flex-direction: column;
+    -webkit-overflow-scrolling: touch;
+}
+
+
+@media(max-width:576px){
+    .MuiAppBar-colorPrimary {
+        min-height: 64px;
+        margin-top:100px !important;
+        background-color: #3C6DAF  !important;
+        display:none !important;
+    }
+     
+    .MuiTypography-body1 {
+        font-size: 0.8571428571428571rem;
+        font-family: Poppins,sans-serif;
+        font-weight: 400;
+        line-height: 1.5;
+        // margin-top: 50px !important;
+    }
+
+}
+
+.font_job_si{
+    font-size:25px;
+}
+
+.clr_type_hding{
+   color:$light_purple;
+   font-weight:500 !important;
+   font-size:14px !important;
+   margin-left:12px !important;
+   letter-spacing:1px;
+}
+
+// .ttle_clr_ssbr :hover{
+//     color: $light_purple !important;
+    
+// }
+.ttle_clr_ssbr {
+    color:#2E2F39;
+}
+// .MuiListItemIcon-root {
+//     color:grey!important;
+// }
+.MuiListItem-button:hover {
+    background-color: rgba(42,65,232,0.04) !important;
+    
+}
+.MuiListItemText-primary:hover{
+    color:$light_purple; 
+}
+.textpadding{padding-left: 55px;}
+
+.selected{
+    color: $light_purple !important;
+    border-color: $light_purple;
+.MuiListItem-button{
+        border-left: 3px solid !important;
+}
+.MuiListItemIcon-root {
+    color: $light_purple !important;
+}
+}
+.hrcolor{background-color: $light_purple !important;
+   height:1px !important
+}

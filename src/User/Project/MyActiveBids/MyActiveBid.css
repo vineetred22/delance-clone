@@ -1,0 +1,17 @@
+
+.editbtn{
+    background-color:#7c4dff !important;
+    padding: 9px 0px!important;
+    margin-left: 3px !important;
+}
+.iconsize{font-size: 16px; color: #fff !important;}
+.bid_padding{
+    padding-left: 40px;
+}
+@media (max-width:768px){
+    
+        .bid_padding{
+            padding-left: 10px;
+        }
+
+}
